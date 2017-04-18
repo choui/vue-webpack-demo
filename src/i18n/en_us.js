@@ -3,7 +3,7 @@
  */
 export default {
     login:{
-        title:"Welcome to Locaticus",
+        title:"Welcome to otaku no ya",
         login:"Sign in",
         forgetPassword:"Forget password?",
         regist:"New here?Sign up",

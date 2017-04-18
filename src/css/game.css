@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.game-panel{
+    width: 450px;
+    height: 670px;
+    border: 4px solid #BDBDBD;
+    border-radius: 2px;
+    background-color: #faf8ef;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 450px) {
+    .game-panel{
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+    }
+}
+
+.status-bar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo{
+    width: 160px;
+    height: 100px;
+    line-height: 90px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #5979ac;
+    color: #fff;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+    .logo{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .logo{
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo{
+        width: 110px;
+    }
+    a{
+        font-size: 18px;
+    }
+}
+
+.board{
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+    background-color: #bbada0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #eae0d1;
+}
+
+span{
+    font-size: 19px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+}
+@media screen and (max-width: 450px) {
+    .board{
+        width: 105px;
+    }
+    span{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .board{
+        width: 95px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .board{
+        width: 90px;
+    }
+    span{
+        font-size: 15px;
+    }
+}
+
+.score{
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+    background-color: #bbada0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #eae0d1;
+}
+
+span{
+    font-size: 19px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+}
+@media screen and (max-width: 450px) {
+    .score{
+        width: 105px;
+    }
+    span{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .score{
+        width: 95px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .score{
+        width: 90px;
+    }
+    span{
+        font-size: 15px;
+    }
+}
+
+.score{
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+    background-color: #bbada0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #eae0d1;
+}
+
+span{
+    font-size: 19px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+}
+@media screen and (max-width: 450px) {
+    .score{
+        width: 105px;
+    }
+    span{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .score{
+        width: 95px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .score{
+        width: 90px;
+    }
+    span{
+        font-size: 15px;
+    }
+}
+
+
+.chessboard{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #fff;
+    height: 530px;
+    border-radius: 4px;
+    padding: 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.container:nth-child(4n){
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 450px) {
+    .chessboard{
+        height: 480px;
+        padding: 10px 0px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .chessboard{
+        height: 450px;
+    }
+}
+
+.status-footer{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.elapsed{
+    position: absolute;
+    right: 10px;
+    font-size: 15px;
+    font-weight: normal;
+}

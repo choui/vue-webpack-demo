@@ -6,6 +6,7 @@ import FastClick from 'fastclick'
 import VueI18n from "vue-i18n"
 import i18 from './i18n'
 import phone from  './lib/phone'
+// import store from './vuex/store';
 
 if ('addEventListener' in document) {
     document.addEventListener('DOMContentLoaded', function() {

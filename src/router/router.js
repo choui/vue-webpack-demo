@@ -3,7 +3,7 @@
  */
 import  App from "../App"
 import  login from '../page/ucenter/login'
-
+import  game from '../page/game/game'
 export default [{
     path: '/',
     component: App, //顶层路由，对应index.html
@@ -13,10 +13,12 @@ export default [{
             path: '',
             redirect: '/ucenter'
         },
-        //首页城市列表页
-        {
+        {//首页城市列表页
             path: '/ucenter',
             component: login
+        },{//游戏
+            path: '/game',
+            component: game
         }
         ]
 }]
